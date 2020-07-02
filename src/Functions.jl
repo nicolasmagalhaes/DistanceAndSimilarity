@@ -12,7 +12,7 @@ end
 
 function euclidianDistance(a1,a2)
     if errorCheck(a1,a2) != -1
-        return sqrt((sum((a1-a2)^2)))
+        return sqrt((sum((a1-a2).^2)))
     end
 end
 
