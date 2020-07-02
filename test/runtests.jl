@@ -11,4 +11,3 @@ using Test
     @test jaccardSimilarity([1,2,3],[3,4,5]) == 1/5
 
     end
-end
