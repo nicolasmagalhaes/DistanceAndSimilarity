@@ -1,15 +1,3 @@
-function errorCheck(a1,a2,p)
-    if length(a1)!= length(a2)
-        println("The arrays have different length")
-        return -1
-        end
-        if p<1
-            println("the value attributed to 'p' must be at least 1")
-            return -1
-        end
-    return 0
-end
-
 function euclidianDistance(a1,a2)
         return sqrt((sum((a1-a2).^2)))
     end
