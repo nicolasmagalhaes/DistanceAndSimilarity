@@ -26,7 +26,9 @@ function cosineDistance(a1,a2)
     if errorCheck(a1,a2) != -1
         return 1 - sum(a1.*a2)/(sqrt(sum(a1.^2))*sqrt(sum(a2.^2)))
     end
+
 end
+
 
 function minkowskiDistance(a1,a2,p)
     if errorCheck(a1,a2,p) != -1
