@@ -1,15 +1,14 @@
 function euclidianDistance(a1,a2)
         return sqrt((sum((a1-a2).^2)))
-    end
+end
 
 
 function manhattanDistance(a1,a2)
         return sum(abs.((a1-a2)))
-    end
+end
 
 
 function cosineDistance(a1,a2)
-
         return 1 - sum(a1.*a2)/(sqrt(sum(a1.^2))*sqrt(sum(a2.^2)))
 end
 
