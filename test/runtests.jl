@@ -1,6 +1,8 @@
 using DistanceAndSimilarity
 using Test
+EuclidianDistance([2,2][1,1]) == 1
+@testset "DistanceAndSimilarity" begin
 
-@testset "DistanceAndSimilarity.jl" begin
-    # Write your tests here.
+
+
 end

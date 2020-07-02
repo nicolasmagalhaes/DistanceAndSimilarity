@@ -1,5 +1,10 @@
 module DistanceAndSimilarity
+include("Functions.jl")
 
-# Write your package code here.
-
+export euclidianDistance,
+        jacardDistance
+        jaccardSimilarity,
+        minkowskiDistance,
+        manhattanDistance,
+        cosineDistance,
 end
