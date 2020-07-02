@@ -21,27 +21,19 @@ function manhattanDistance(a1,a2)
 
 
 function cosineDistance(a1,a2)
-    if errorCheck(a1,a2) != -1
-        return 1 - sum(a1.*a2)/(sqrt(sum(a1.^2))*sqrt(sum(a2.^2)))
-    end
 
+        return 1 - sum(a1.*a2)/(sqrt(sum(a1.^2))*sqrt(sum(a2.^2)))
 end
 
 
 function minkowskiDistance(a1,a2,p)
-    if errorCheck(a1,a2,p) != -1
         return (sum(abs.(a1-a2).^p))^1/p
-    end
 end
 
 function jaccardSimilarity(a1,a2)
-    if errorCheck(a1,a2)!= -1
         return length(intersect(a1,a2))/length(union(a1,a2))
-    end
 end
 
 function jaccardDistance(a1,a2)
-    if errorCheck(a1,a2)!= -1
         return 1 - jaccardSimilarity(a1,a2)
-    end
 end
