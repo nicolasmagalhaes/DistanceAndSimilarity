@@ -6,5 +6,5 @@ export euclidianDistance,
         jaccardSimilarity,
         minkowskiDistance,
         manhattanDistance,
-        cosineDistance,
+        cosineDistance
 end
