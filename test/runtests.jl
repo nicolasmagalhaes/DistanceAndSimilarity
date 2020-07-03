@@ -10,4 +10,7 @@ using Test
     @test jaccardDistance([1,2,3],[3,4,5]) == (1- 1/5)
     @test jaccardSimilarity([1,2,3],[3,4,5]) == 1/5
 
+    @test errorCheck([0,0],[1,1,1],1) == -1
+    @test errorCheck([1,1],[1,1],0) == -1
+
     end

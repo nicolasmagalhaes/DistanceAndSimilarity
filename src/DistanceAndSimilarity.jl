@@ -8,4 +8,5 @@ export jaccardSimilarity
 export minkowskiDistance
 export manhattanDistance
 export cosineDistance
+export errorCheck
 end
